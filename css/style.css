@@ -65,3 +65,34 @@ header {
 li {
     list-style-type: none;
 }
+
+
+
+.clouds {
+    color: white;
+    background-color: lightskyblue;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 0.7rem;
+}
+
+#q1 {
+    background-color: blueviolet;
+}
+
+#recruiting {
+    background-color: green;
+}
+
+#mobile {
+    background-color: orange;
+}
+
+#website {
+    background-color: purple;
+}
+
+#sales {
+    background-color: greenyellow;
+}
