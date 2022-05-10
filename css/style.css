@@ -11,11 +11,10 @@ h1 {
 
 img {
     vertical-align: middle;
+    margin-left: 50px;
 }
 
-header {
-    margin-left: 20px;
-}
+header {}
 
 
 /* due bottoni */
@@ -31,7 +30,7 @@ header {
 .button-unpressed {
     background-color: white;
     color: gray;
-    border: 1px grey;
+    border: solid 1px grey;
     padding: 8px;
     border-radius: 5px;
 }
@@ -63,11 +62,11 @@ header {
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none;margin: 5px;
 }
 
 
-
+/* icone colorate a destra del foglio */
 .clouds {
     color: white;
     background-color: lightskyblue;
@@ -95,4 +94,28 @@ li {
 
 #sales {
     background-color: greenyellow;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightslategray;
+    padding left:0;
+    padding right:0
+}
+
+header {
+    background-color: lightslategray;
+    margin-bottom: 50px;
+}
+
+#buttons {
+    border-bottom: 1px solid white;padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
 }
