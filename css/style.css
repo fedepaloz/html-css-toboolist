@@ -47,6 +47,7 @@ header {}
     border: solid;
     border-color: green;
     display: inline-block;
+    margin-right: 3px;
 }
 
 .uncheck {
@@ -59,10 +60,13 @@ header {}
     border: solid;
     border-color: rgb(128, 0, 0);
     display: inline-block;
+    margin-right: 3px;
 }
 
 li {
-    list-style-type: none;margin: 5px;
+    list-style-type: none;
+    margin: 7px;
+    margin-left: 0;
 }
 
 
@@ -74,6 +78,7 @@ li {
     padding: 5px;
     border-radius: 15px;
     font-size: 0.7rem;
+    margin-left: 5px;
 }
 
 #q1 {
@@ -97,25 +102,34 @@ li {
 }
 
 body {
-    background-color: white;
+    background-color: lightgrey;
 }
 
 main {
     width: 1000px;
     margin: 0 auto;
-    background-color: lightslategray;
-    padding left:0;
-    padding right:0
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px
 }
 
 header {
-    background-color: lightslategray;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 50px;
 }
 
 #buttons {
-    border-bottom: 1px solid white;padding-top: 10px;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
-    
+
+}
+
+
+.insidemain {
+    padding: 50px;
+}
+
+ul {
+    padding-left: 0;
 }
