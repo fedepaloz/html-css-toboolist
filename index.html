@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="img/Logo.png">
 </head>
+
 <body>
 
     <!--logo e scritta header  -->
@@ -15,47 +17,73 @@
         <img src="img/Logo.png" alt="logo">
         <h1>Toboolist</h1>
     </header>
-    
-   
-<!-- MAIN -->
-   
+
+
+    <!-- MAIN -->
+
     <main>
 
         <!-- due bottoni -->
-        <div>add task</div>
-        <div>add section</div>
+
+        <div>
+            <button class="button-pressed">Add task</button>
+            <button class="button-unpressed">Add section</button>
+        </div>
 
         <!--new task  -->
-   <section>
-       <h3>new task</h3>
-       <ul>
-           <li>quarterly newsletter editorial</li>
-       </ul>
-   </section>
+        <section>
+            <h3><span>&#9660;</span>new task</h3>
+            <ul>
+                <li>
+                    <div class="check">&check;</div> quarterly newsletter editorial
+                </li>
+            </ul>
+        </section>
 
-   <!-- today -->
-   <section>
-       <h3>Today</h3>
-       <ul>
-           <li>recruiting blog spot editorial</li>
-           <li>mobile app launch q1 goals</li>
-           <li>interview john H. recruiting</li>
-           <li>summit update to mobile storefronts</li>
-       </ul>
-   </section>
+        <!-- today -->
+        <section>
+            <h3><span>&#9660;</span>Today</h3>
+            <ul>
+                <li>
+                    <div class="check">&check;</div>recruiting blog spot editorial
+                </li>
+                <li>
+                    <div class="check">&check;</div>mobile app launch q1 goals
+                </li>
+                <li>
+                    <div class="uncheck"> &Cross;
 
-   <!-- upcoming -->
-   <h3>upcoming</h3>
-   <ul>
-       <li>schedule meeting with alex</li>
-       <li>homepage refresh website</li>
-       <li>onboard new sales team members sales</li>
-       <li>review editorial calendar editorial</li>
-   </ul>
+                    </div> interview john H. recruiting
+                </li>
+                <li>
+                    <div class="check">&check;</div>summit update to mobile storefronts
+                </li>
+            </ul>
+        </section>
+
+        <!-- upcoming -->
+        <h3><span>&#9660;</span>upcoming</h3>
+        <ul>
+            <li>
+                <div class="uncheck"> &Cross;
+
+                </div> schedule meeting with alex
+            </li>
+            <li>
+                <div class="check">&check;</div>homepage refresh website
+            </li>
+            <li>
+                <div class="check">&check;</div>onboard new sales team members sales
+            </li>
+            <li>
+                <div class="check">&check;</div>review editorial calendar editorial
+            </li>
+        </ul>
 
 
     </main>
 
 
 </body>
+
 </html>

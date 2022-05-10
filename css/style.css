@@ -1,16 +1,67 @@
-body{margin: 0;}
+body {
+    margin: 0;
+}
 
 /* header */
 
-h1{display:inline-block;vertical-align:middle;}
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
 
-img{vertical-align:middle;}
+img {
+    vertical-align: middle;
+}
 
-header{margin-left: 20px;}
+header {
+    margin-left: 20px;
+}
 
 
 /* due bottoni */
 
+.button-pressed {
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.button-unpressed {
+    background-color: white;
+    color: gray;
+    border: 1px grey;
+    padding: 8px;
+    border-radius: 5px;
+}
 
 
+/* spunte verdi */
+.check {
+    color: green;
+    background-color: rgb(255, 255, 255);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    border: solid;
+    border-color: green;
+    display: inline-block;
+}
 
+.uncheck {
+    color: rgb(128, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    border: solid;
+    border-color: rgb(128, 0, 0);
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
